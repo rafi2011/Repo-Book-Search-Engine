@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rafi2011/Repo-Book-Search-Engine#readme",
   "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.60",
     "bootstrap": "^5.1.0",
     "concurrently": "^6.2.1",
     "react-bootstrap": "^2.0.0-beta.6",
