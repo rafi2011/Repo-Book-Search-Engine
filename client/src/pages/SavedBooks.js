@@ -61,8 +61,8 @@ const SavedBooks = () => {
         </h2>
         <CardColumns>
           {loading 
-          ? <Skeleton animation="wave" />
-          : userData.savedBooks.map((book) => {
+          ? <Skeleton animation="wave" /> 
+          :userData.savedBooks.map((book)=> {
             return (
               <Card key={book.bookId} border='dark'>
                 {book.image ? <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' /> : null}
